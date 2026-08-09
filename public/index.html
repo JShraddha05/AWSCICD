@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Node.js App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>My Node.js Web App</h1>
+    <p class="subtitle">Express backend + static frontend</p>
+
+    <section class="block">
+      <label for="nameInput">Enter your name:</label>
+      <div class="row">
+        <input id="nameInput" type="text" placeholder="e.g. Ada" />
+        <button id="greetBtn">Greet me</button>
+      </div>
+      <p id="greetResult" class="result"></p>
+    </section>
+
+    <section class="block">
+      <button id="healthBtn">Check server health</button>
+      <p id="healthResult" class="result"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
